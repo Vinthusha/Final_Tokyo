@@ -5,6 +5,9 @@ import controllers.PageBase;
 import controllers.TestBase;
 import org.testng.annotations.Test;
 
+/**
+ * Author Banuja
+ */
 public class Project extends TestBase {
     @Test(groups = {"Smoke"}, priority = 1)
     public void ProjectTest() throws Exception {
@@ -25,10 +28,6 @@ public class Project extends TestBase {
         MethodBase.hitEnter();
         MethodBase.click_ByXpath("/html/body/div[10]/div/div[2]/div/div[2]/div[3]/button[2]"); //Save
 //        MethodBase.click_ByXpath("/html/body/div[10]/div/div[2]/div/div[2]/div[3]/button[1]"); //Return
-
-
-
-
 
 
     }

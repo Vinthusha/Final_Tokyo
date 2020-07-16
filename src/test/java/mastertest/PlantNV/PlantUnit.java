@@ -5,8 +5,8 @@ import controllers.PageBase;
 import controllers.TestBase;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-/*
-    Author N.Nixsala
+/**
+ * Author Nixsala
  */
 public class PlantUnit extends TestBase {
 

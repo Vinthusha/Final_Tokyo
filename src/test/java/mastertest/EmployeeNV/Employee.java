@@ -5,8 +5,11 @@ import controllers.PageBase;
 import controllers.TestBase;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
+/**
+ * Author vinthusha
+ */
 public class Employee extends TestBase {
+    public SoftAssert softAssert;
 
     @Test(groups = {"Smoke"}, priority = 1)
     public void employeeSmokeTest() throws Exception {

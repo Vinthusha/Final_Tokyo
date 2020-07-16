@@ -6,10 +6,11 @@ import controllers.TestBase;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-/*
-Author vinthusha
+/**
+ * Author vinthusha
  */
 public class Material extends TestBase {
+
     public SoftAssert softAssert;
 
     @Test(groups = {"Smoke"}, priority = 1)
