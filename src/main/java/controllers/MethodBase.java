@@ -24,8 +24,6 @@ import static controllers.PageBase.getDriver;
 
 public class MethodBase extends Constants {
 
-
-
     /* To get the Website Name */
 
 //    public String getUrlTitle() throws Exception
