@@ -4,6 +4,7 @@ import controllers.MethodBase;
 import controllers.PageBase;
 import controllers.TestBase;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 /**
  * Author Banuja
@@ -12,7 +13,9 @@ public class Project extends TestBase {
     @Test(groups = {"Smoke"}, priority = 1)
     public void ProjectTest() throws Exception {
         PageBase.staticWait(2);
+        SoftAssert softAssert = new SoftAssert();
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/a[1]/div/div"); // Click Master
+       // softAssert.assertTrue(MethodBase.isDisplayed_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/a[1]/div/div"),"Sorry we could not find" );
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/header/ul/li[11]/a");//Click customerNV
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[2]");//Click project field
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div[1]/div/div[2]/button");//Click Add project
@@ -27,6 +30,7 @@ public class Project extends TestBase {
         MethodBase.click_ByXpath("//*[@id=\"customer\"]/div/div");// select customer
         MethodBase.hitEnter();
         MethodBase.click_ByXpath("/html/body/div[10]/div/div[2]/div/div[2]/div[3]/button[2]"); //Save
+        softAssert.assertAll();
 //        MethodBase.click_ByXpath("/html/body/div[10]/div/div[2]/div/div[2]/div[3]/button[1]"); //Return
 
 
