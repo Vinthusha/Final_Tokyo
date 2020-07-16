@@ -1,1 +1,0 @@
-{"uuid":"d25d403e-dbd8-43df-8e0c-a5f97ad6144b","name":"WebUiAutomationFramework","children":["6e4fa8cc-ff70-478f-ad47-c14a2fe737cd"],"befores":[{"name":"beforeTest","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1594829714342,"stop":1594829714353}],"afters":[],"links":[],"start":1594829714214,"stop":1594829742208}
