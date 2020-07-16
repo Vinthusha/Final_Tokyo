@@ -6,10 +6,13 @@ import controllers.TestBase;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+/**
+ * Author Daclas
+ */
 public class PlantEquipment extends TestBase {
     @Test(groups = {"Smoke"}, priority = 1)
     public void plantequipmentSmokeTest() throws Exception {
-        PageBase.staticWait(02);
+        PageBase.staticWait(05);
         softAssert = new SoftAssert();
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/a[1]/div/div");
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/header/ul/li[7]/a");
@@ -31,7 +34,7 @@ public class PlantEquipment extends TestBase {
         MethodBase.click_ByXpath("/html/body/div[8]/div/div[2]/div/div[2]/div[3]/button[2]");//save btn
         PageBase.staticWait(03);
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div/div[2]/div/table/tbody/tr[2]/td[7]/span/a[2]/a/i");
-        PageBase.staticWait(03);
+        PageBase.staticWait(06);
         MethodBase.click_ByXpath("/html/body/div[11]/div/div/div/div[2]/div/div/div[2]/button[2]");
         softAssert.assertAll();
     }

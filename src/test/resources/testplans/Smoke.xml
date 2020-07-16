@@ -15,6 +15,8 @@
         <classes>
 
             <class name="mastertest.PlantNV.PlantUnit"></class>
+            <class name="mastertest.EquipmentNV.Equipment"></class>
+            <class name="mastertest.EquipmentNV.PlantEquipment"></class>
             <class name="mastertest.EmployeeNV.Employee"></class>
             <class name="mastertest.EmployeeNV.Designation"></class>
             <class name="mastertest.EmployeeNV.Role"></class>

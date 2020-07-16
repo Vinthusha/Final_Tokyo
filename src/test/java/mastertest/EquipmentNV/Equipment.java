@@ -5,7 +5,9 @@ import controllers.PageBase;
 import controllers.TestBase;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-
+/**
+ * Author Daclas
+ */
 public class Equipment extends TestBase {
     @Test(groups = {"Smoke" },priority = 1)
     public void equipment() throws Exception {
@@ -35,7 +37,7 @@ public class Equipment extends TestBase {
         // this is for check the delete button
         PageBase.staticWait(03);
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div[2]/div/table/tbody/tr[2]/td[4]/span/a[2]/a/i");
-        PageBase.staticWait(05);
+        PageBase.staticWait(06);
         MethodBase.click_ByXpath("/html/body/div[8]/div/div/div/div[2]/div/div/div[2]/button[2]");
         softAssert.assertAll();
     }
