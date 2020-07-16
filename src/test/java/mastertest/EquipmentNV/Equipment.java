@@ -10,7 +10,7 @@ public class Equipment extends TestBase {
     @Test(groups = {"Smoke" },priority = 1)
     public void equipment() throws Exception {
         SoftAssert softAssert = new SoftAssert();
-        PageBase.staticWait(02);
+        PageBase.staticWait(05);
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/a[1]/div/div");
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/header/ul/li[7]/a");
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/div[1]");
@@ -35,7 +35,7 @@ public class Equipment extends TestBase {
         // this is for check the delete button
         PageBase.staticWait(03);
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[2]/div/div/div/div[2]/div/table/tbody/tr[2]/td[4]/span/a[2]/a/i");
-        PageBase.staticWait(03);
+        PageBase.staticWait(05);
         MethodBase.click_ByXpath("/html/body/div[8]/div/div/div/div[2]/div/div/div[2]/button[2]");
         softAssert.assertAll();
     }
