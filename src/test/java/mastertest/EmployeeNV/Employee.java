@@ -11,7 +11,7 @@ public class Employee extends TestBase {
     @Test(groups = {"Smoke"}, priority = 1)
     public void employeeSmokeTest() throws Exception {
         softAssert = new SoftAssert();
-        Thread.sleep(200);
+        PageBase.staticWait(3);
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[1]/a[1]/div/div");//click master
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/header/ul/li[15]/a");// click employee NV
         MethodBase.click_ByXpath("//*[@id=\"root\"]/div/section/section/main/div/div[1]/div[3]");//click employee panel

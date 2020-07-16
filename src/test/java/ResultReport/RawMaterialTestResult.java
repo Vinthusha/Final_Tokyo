@@ -1,9 +1,11 @@
 package ResultReport;
 
-import com.test.qa.utils.TestBase;
+
+import controllers.MethodBase;
+import controllers.PageBase;
+import controllers.TestBase;
 import org.testng.annotations.Test;
-import utils.MethodBase;
-import utils.PageBase;
+
 
 /**
  *Author Daclas
