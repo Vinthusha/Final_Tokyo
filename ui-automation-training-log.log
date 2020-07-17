@@ -1,0 +1,5 @@
+2020-07-17 09:48:38 INFO  TestBase:25 - Initiate Browser
+2020-07-17 09:49:19 INFO  TestBase:31 - Browser Initiated
+2020-07-17 09:49:19 INFO  TestBase:44 - Test name: DesignationTest
+2020-07-17 09:49:19 INFO  TestBase:58 - Executed test case name:DesignationTest Execution Results : [TestResult name=DesignationTest status=FAILURE method=Designation.DesignationTest()[pri:1, instance:mastertest.EmployeeNV.Designation@708f5957] output={null}]
+2020-07-17 09:49:19 INFO  TestBase:51 - Closing Browser
