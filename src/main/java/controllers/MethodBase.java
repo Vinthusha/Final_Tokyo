@@ -24,8 +24,6 @@ import static controllers.PageBase.getDriver;
 
 public class MethodBase extends Constants {
 
-
-
     /* To get the Website Name */
 
 //    public String getUrlTitle() throws Exception
@@ -427,7 +425,6 @@ public class MethodBase extends Constants {
         getDriver().findElement(By.xpath(locator)).click();
     }
     public static void click_ById(String locator) {
-
         getDriver().findElement(By.id(locator)).click();
     }
     public static void click_ByName(String locator) {

@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit;
 public class PageBase {
     private static WebDriver driver;
 
-    private static String baseUrl = "http://ec2-13-126-81-216.ap-south-1.compute.amazonaws.com/#/master/supplierlevel";
+    private static String baseUrl = "http://ec2-13-126-81-216.ap-south-1.compute.amazonaws.com";
     private static String webDriverLocation = "src"+ File.separator+"main"+File.separator+"resources"+File.separator+"drivers"+File.separator;
     protected static String downloadFilepath = System.getProperty("user.dir")+File.separator+"src"+File.separator+"test"+File.separator+"resources"+File.separator+"fileDownload";
     protected static String uploadFilepath = System.getProperty("user.dir")+File.separator+"src"+File.separator+"test"+File.separator+"resources"+File.separator+"fileUpload";

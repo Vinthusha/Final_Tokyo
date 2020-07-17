@@ -29,9 +29,9 @@ public class TestBase {
             e.printStackTrace();
         }
         LOGGER.info("Browser Initiated");
-MethodBase.setText_ByID("usernameOrEmail","admin");
-MethodBase.setText_ByID("password","admin");
-MethodBase.click_ByXpath("//*[@id=\"root\"]/div/div/div[2]/div[1]/form/div/div[3]/div/div/span/button");
+        MethodBase.setText_ByID("usernameOrEmail","admin");
+        MethodBase.setText_ByID("password","admin");
+        MethodBase.click_ByXpath("//*[@id=\"root\"]/div/div/div[2]/div[1]/form/div/div[3]/div/div/span/button");
     }
 
     @BeforeMethod(alwaysRun = true)
